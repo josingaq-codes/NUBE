@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
 if (!isset($_SESSION['user_id']) || !isset($_POST['friend_email'])) {
     echo "<script>alert('Error: Faltan datos necesarios.'); window.location.href = '../html/MisDatos.php';</script>";
     exit;
-}
+} // Verificar si el usuario está logueado y se ha enviado un correo
 
 $usuario_id = $_SESSION['user_id'];
 $correo_amigo = trim($_POST['friend_email']);
