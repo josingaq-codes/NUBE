@@ -100,7 +100,7 @@ ob_start();
                 <p class="no-materials">No hay video disponible para esta sesión.</p>
             <?php endif; ?>
 
-            <p>Presentacion de la clase Grabada:</p>
+            <p>Presentacion de la clase Grabada:</p>    
           
 
             <h2>Materiales:</p>
