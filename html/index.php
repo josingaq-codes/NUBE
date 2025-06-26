@@ -1,5 +1,5 @@
 
-<?php require('../Scripts/auth.php'); ?>
+<?php include './../Scripts/auth.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
