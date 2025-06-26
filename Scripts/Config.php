@@ -1,8 +1,8 @@
 <?php
 // Iniciar sesión si no está iniciada
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+// if (session_status() === PHP_SESSION_NONE) {
+//     session_start();
+// }
 
 // Datos de conexión a la base de datos MySQL
 $host = "mainline.proxy.rlwy.net";
