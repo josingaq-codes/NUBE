@@ -5,13 +5,14 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Datos de conexión a la base de datos MySQL
-$host = "localhost";
+$host = "mainline.proxy.rlwy.net";
 $user = "root";
-$password = ""; // En XAMPP suele estar vacío
-$database = "clasenube_db"; // Cambialo si usás otro nombre de BD
+$password = "sypQDjSqRjtivZxfIGTKDFkteoCshGWo"; // En XAMPP suele estar vacío
+$database = "railway"; // Cambialo si usás otro nombre de BD
+$puerto = 29225; // Puerto de conexión, si es necesario
 
 // Crear conexión
-$conn = new mysqli($host, $user, $password, $database);
+$conn = new mysqli($host, $user, $password, $database, $puerto);
 
 // Verificar si hay error de conexión
 if ($conn->connect_error) {
