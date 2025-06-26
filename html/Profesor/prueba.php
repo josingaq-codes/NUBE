@@ -1,4 +1,3 @@
-
 <?php include '../../Scripts/auth.php'; ?>
 
 <!DOCTYPE html>
