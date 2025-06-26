@@ -15,7 +15,7 @@ try {
 
         // Comparación directa para contraseña en texto plano
         if ($pass === $user['contraseña']) {
-            session_start();
+            // session_start();
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['correo'] = $user['correo'];
             $_SESSION['nombre'] = $user['nombre'];
