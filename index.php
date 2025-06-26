@@ -7,7 +7,7 @@
     <script>
         setTimeout(() => {
             window.location.href = "html/login.html";
-        }, 4000);
+        }, 1000);
   </script>
 </head>
 <body></body>
